@@ -17,7 +17,7 @@ A simple standalone search engine tool to search for relevant information in a l
     ```
     This creates a folder named `data/` containing the index created.
 
-4. The query must be written in a plain text file, and the ouput of query is also written into a file. Each query result contains the name of the corresponding Wikipedia page title. To run a query, run the following command inside the cloned directory:
+4. The query must be written in a plain text file, and the ouput of query is also written into a file (format of the query mentioned below). Each query result contains the name of the corresponding Wikipedia page title. To run a query, run the following command inside the cloned directory:
     ```
     python3 wiki_query.py <path_to_file_containing_query> <path_to_query_output_file>
     ```
