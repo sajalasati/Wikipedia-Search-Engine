@@ -26,7 +26,7 @@ A simple standalone search engine tool to search for relevant information in a l
 - All the queries are written in a plain text file.
 - Each query should be present in a new line. The file ends after the last query. Query has a general format `<num_results>, "query"`, where num_results is an integer denoting the number of desired results for the provided query. 
 - Two types of queries can be handled by the search engine:
-  - Simple Query: Here we mention the phrase or keyword or sentence form query. eg. "3, Sachin tendulkar", "2, Cricket World Cup 2019", "10, India" etc.
+  - Simple Query: Here we mention the phrase or keyword or sentence form query. Example: "3, Sachin tendulkar", "2, Cricket World Cup 2019", "10, India" etc.
   - Field Query: Wikipedia articles have several categories in the page and the user can specify to search in only those fields. The search engine handles the following categories: Title(t), Body(b), Links(l), References(r), Infobox(i), Category(c). 
         *Example of field queries*: 1) "3, t:World Cup i:2019 c:Cricket", 2) "2, t:the two towers i:1954" etc.
 
