@@ -1,5 +1,5 @@
 # Wikipedia-Search-Engine
-A simple standalone search engine tool to search for relevant information in a locally downloaded Wikipedia corpus. Given a Wikipedia dump in XML format, this creates a local index of the data and search for any queried information in 1-4 seconds!
+A simple standalone search engine tool to search for relevant information in a locally downloaded Wikipedia corpus. Given a Wikipedia dump in XML format, this creates a local index of the data (pre-processing) and search for any queried information in 1-4 seconds!
 
 ## Requirements
 - Python 3
